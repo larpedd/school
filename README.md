@@ -6,4 +6,4 @@ udh nulis kode mulai umur 12 tahun pak
 vohisma
 
 ## nama?
-take a hint from all of my commits
+absen 33
