@@ -8,3 +8,8 @@ vohisma
 
 ## nama?
 absen 33
+
+## deploy
+symlink this folder to idk, the root folder of apache or sm idk
+
+OR, put this folder into xammp
