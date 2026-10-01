@@ -7,13 +7,12 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Compile
-        run: g++ -std=c++17 -O2 -static-libgcc -static-libstdc++ udin.cpp -o program.exe
+        run: g++ -std=c++17 -O2 -static -static-libgcc -static-libstdc++ -pthread udin.cpp -o program.exe
 
       - name: Upload EXE
         uses: actions/upload-artifact@v4
